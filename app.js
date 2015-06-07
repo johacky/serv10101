@@ -24,6 +24,6 @@ app.get('/', function (req, res) {
 });
 
 // Web Server listener
-var server = app.listen(3000, function() {
+var server = app.listen(80, function() {
     console.log('Express server listening on port ' + server.address().port);
 });
